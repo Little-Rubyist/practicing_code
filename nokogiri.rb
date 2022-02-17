@@ -1,3 +1,4 @@
+# あつ森で家具コンプしたくて色々いじってたときのやつ
 require 'open-uri'
 require 'nokogiri'
 
