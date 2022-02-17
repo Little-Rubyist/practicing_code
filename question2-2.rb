@@ -2,7 +2,7 @@
 require 'mechanize'
 
 agent = Mechanize.new # Mechanizeの初期化
-page = agent.get("https://sarah30.com/%E3%82%AB%E3%83%AC%E3%83%BC?city=657") # リンク先からHTML情報を取得
+page = agent.get("some_url") # リンク先からHTML情報を取得
 genre = page.links.find { |l| l.href == "/#{l.text}"}.text # リンク一覧からジャンルを取得
 
 # リンク一覧から都道府県を取得
